@@ -35,3 +35,7 @@ for word in Wc:
     else:
         count[word] = 1
 print(count)
+for i in range (1,101):
+    print("%3d" %i,end=" ")
+    if i%10==0:
+        print()
